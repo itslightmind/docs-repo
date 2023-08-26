@@ -1,12 +1,11 @@
-+++
-date = '2023-06-09'
-draft = false
-modified = '2023-08-25'
-original_hash = '1de9c4038d40458092b95e68968e79fa38280bf9c7b2322616142198952acee0'
-title = 'Game Publishers That You Can Use Music From'
-+++
+---
+title: "Game Publishers That You Can Use Music From"
+date: 2023-06-09
+modified: 2023-08-26
+original_hash: 1de9c4038d40458092b95e68968e79fa38280bf9c7b2322616142198952acee0
+draft: false
+---
 
-Tags: Music Policy, [Background Music](/posts/background-music), Gaming
 
 ## Valve Software✅
 
@@ -23,7 +22,7 @@ Tags: Music Policy, [Background Music](/posts/background-music), Gaming
 
 - Monetization on YouTube/Twitch Is Allowed
 - [Posting copyrighted Ubisoft material | Ubisoft Help](https://www.ubisoft.com/en-gb/help/connectivity-and-performance/article/posting-copyrighted-ubisoft-material/000062649)
-- Seems good to use, they have title tracks/some tracks in games that they don't own, so if something gets blocked/claimed add it to [Blacklisted Game Music Tracks](/posts/blacklisted-game-music-tracks)
+- Seems good to use, they have title tracks/some tracks in games that they don't own, so if something gets blocked/claimed add it to Blacklisted Game Music Tracks
 - Dont use stuff from JustDance of course
 
 ## Square Enix ❌📄
@@ -58,7 +57,7 @@ Tags: Music Policy, [Background Music](/posts/background-music), Gaming
 ## Capcom ✅
 
 - Monetization on YouTube/Twitch Is Allowed
-- Some songs might not be owned so if it gets claimed add to [Blacklisted Game Music Tracks](/posts/blacklisted-game-music-tracks)
+- Some songs might not be owned so if it gets claimed add to Blacklisted Game Music Tracks
 - [Capcom Video Policy](https://www.capcomusa.com/video-policy/)
 
 ## CD Projekt ✅
@@ -88,7 +87,7 @@ Tags: Music Policy, [Background Music](/posts/background-music), Gaming
 ## InnerSloth ✅ 📄
 
 - Monetization on YouTube/Twitch Is Allowed
-- Seems likely that you'll be fine. They have broadcast terms for the music and sound effects broadcast. I wouldn't be surprised if its fine for [Youtube](/posts/youtube)
+- Seems likely that you'll be fine. They have broadcast terms for the music and sound effects broadcast. I wouldn't be surprised if its fine for Youtube
 - [DMCA AND FAN CREATION POLICY FOR INNERSLOTH LICENSED IP](https://store.innersloth.com/pages/dmca-and-fan-creation-policy-for-innersloth-licensed-ip)
 - [Terms of Use for the Games | Broadcast Rights](https://www.innersloth.com/terms-of-use-for-the-games/#section-8)
 
