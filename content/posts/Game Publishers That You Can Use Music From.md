@@ -22,7 +22,7 @@ draft: false
 
 - Monetization on YouTube/Twitch Is Allowed
 - [Posting copyrighted Ubisoft material | Ubisoft Help](https://www.ubisoft.com/en-gb/help/connectivity-and-performance/article/posting-copyrighted-ubisoft-material/000062649)
-- Seems good to use, they have title tracks/some tracks in games that they don't own, so if something gets blocked/claimed add it to Blacklisted Game Music Tracks
+- Seems good to use, they have title tracks/some tracks in games that they don't own, so if something gets blocked/claimed add it to [Blacklisted Game Music Tracks](/posts/blacklisted-game-music-tracks)
 - Dont use stuff from JustDance of course
 
 ## Square Enix ❌📄
@@ -57,7 +57,7 @@ draft: false
 ## Capcom ✅
 
 - Monetization on YouTube/Twitch Is Allowed
-- Some songs might not be owned so if it gets claimed add to Blacklisted Game Music Tracks
+- Some songs might not be owned so if it gets claimed add to [Blacklisted Game Music Tracks](/posts/blacklisted-game-music-tracks)
 - [Capcom Video Policy](https://www.capcomusa.com/video-policy/)
 
 ## CD Projekt ✅
