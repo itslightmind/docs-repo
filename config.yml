@@ -1,5 +1,5 @@
 baseURL: 'https://more.haydengreener.com'
-title: Garden
+title: Note Repository
 paginate: 5
 theme: PaperMod
 enableRobotsTXT: true
@@ -12,25 +12,23 @@ minify:
   disableXML: true
   minifyOutput: true
 params:
-  title: Garden
-  description: Garden description
+  title: Note Repository
+  description: Note Repository description
   keywords:
-    - Blog
-    - Portfolio
-    - PaperMod
-  author: Me
+    - ""
+  author: ""
   images:
     - '<link or path of image for opengraph, twitter-cards>'
   DateFormat: 'January 2, 2006'
   defaultTheme: dark
   disableThemeToggle: false
-  ShowReadingTime: true
-  ShowShareButtons: true
+  ShowReadingTime: false
+  ShowShareButtons: false
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: false
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -39,8 +37,12 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  editPost:
+    URL: "https://github.com/plateau12/more.personal/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
   assets:
-    favicon: <link / abs url>
+    favicon: "<link / abs url>"
     favicon16x16: <link / abs url>
     favicon32x32: <link / abs url>
     apple_touch_icon: <link / abs url>
@@ -50,20 +52,22 @@ params:
     icon: /apple-touch-icon.png
     iconHeight: 35
   profileMode:
-    enabled: false
-    title: Garden
-    subtitle: This is subtitle
-    imageUrl: <img location>
+    enabled: true
+    title: 🪴 Note Repository
+    subtitle: Ping. PONG
+    imageUrl: ""
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
     buttons:
-      - name: Posts
+      - name: Written Posts
         url: posts
-      - name: Tags
-        url: tags
+      - name: Youtube
+        url: https://www.youtube.com/@ItsLightMind
+      - name: Twitter
+        url: https://twitter.com/ItsLightMind
   homeInfoParams:
-    Title: "My Garden \U0001F335"
+    Title: "My Notes \U0001F335"
     Content: Pong
   analytics:
     google:
@@ -90,17 +94,13 @@ params:
       - content
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: search
+      name: search
+      url: /search
       weight: 20
-    - identifier: mildhope
-      name: a.mildhope.com
-      url: 'https://a.mildhope.com'
+    - identifier: portfolio
+      name: portfolio
+      url: 'https://haydengreener.com'
       weight: 30
 markup:
   highlight:
