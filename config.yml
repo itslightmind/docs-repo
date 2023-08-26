@@ -1,4 +1,4 @@
-baseURL: 'https://plateau12.github.io/garden'
+baseURL: 'https://mildhope.com:'
 title: Garden
 paginate: 5
 theme: PaperMod
@@ -6,7 +6,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-googleAnalytics: UA-123-45
+#googleAnalytics: UA-123-45
 pygmentsUseClasses: true
 minify:
   disableXML: true
