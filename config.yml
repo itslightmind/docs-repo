@@ -82,12 +82,6 @@ params:
     Title: "Note Archive \U0001F335"
     Content: all thoughts are my own
 
-  socialIcons:
-    - name: twitter
-      url: "https://twitter.com/ItsLightMind"
-    - name: youtube
-      url: "https://www.youtube.com/@ItsLightMind"
-
   analytics:
     google:
       SiteVerificationTag: "XYZabc"
