@@ -1,4 +1,4 @@
-baseURL: 'https://archive.haydengreener.com'
+baseURL: 'https://ref.haydengreener.com'
 title: Hayden's Note Archive
 paginate: 5
 theme: PaperMod
@@ -80,7 +80,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Note Archive \U0001F335"
-    Content: Welcome to my public notes, all thoughts are my own
+    Content: all thoughts are my own
 
   socialIcons:
     - name: twitter
