@@ -1,5 +1,5 @@
-baseURL: 'https://more.haydengreener.com'
-title: Hayden's Note Repository
+baseURL: 'https://archive.haydengreener.com'
+title: Hayden's Note Archive
 paginate: 5
 theme: PaperMod
 
@@ -22,8 +22,8 @@ outputs:
         
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Note Repository
-  description: Note Repository description
+  title: Note Archive
+  description: Note Archive description
   keywords: [Blog, Portfolio, PaperMod]
   author: ""
   # author: ["Me", "You"] # multiple authors
@@ -79,8 +79,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Note Repository \U0001F335"
-    Content: Welcome to my public documentation
+    Title: "Note Archive \U0001F335"
+    Content: Welcome to my public notes, all thoughts are my own
 
   socialIcons:
     - name: twitter
@@ -103,7 +103,7 @@ params:
 
   editPost:
     URL: "https://github.com/plateau12/more.personal/tree/main/content"
-    Text: "Suggest Changes" # edit text
+    Text: "Suggest Corrections" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
