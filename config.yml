@@ -79,7 +79,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "My Garden \U0001F335"
+    Title: "Note Repository \U0001F335"
     Content: Welcome to my public documentation
 
   socialIcons:
