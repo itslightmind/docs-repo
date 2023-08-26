@@ -1,10 +1,10 @@
----
-title: "Loudness Normalization (Volume Compression)"
-date: 2023-06-06
-modified: 2023-08-25
-original_hash: cdbaf9dbe6a2a6791fa8e6b3b5949115089934fd5dd99f73f50dedae3a8f00ba
-draft: false
----
++++
+date = '2023-06-06'
+draft = false
+modified = '2023-08-25'
+original_hash = 'cdbaf9dbe6a2a6791fa8e6b3b5949115089934fd5dd99f73f50dedae3a8f00ba'
+title = 'Loudness Normalization (Volume Compression)'
++++
 
 # What is the Goal?
 

@@ -1,10 +1,10 @@
----
-title: "Game Publishers That You Can Use Music From"
-date: 2023-06-09
-modified: 2023-08-25
-original_hash: 1de9c4038d40458092b95e68968e79fa38280bf9c7b2322616142198952acee0
-draft: false
----
++++
+date = '2023-06-09'
+draft = false
+modified = '2023-08-25'
+original_hash = '1de9c4038d40458092b95e68968e79fa38280bf9c7b2322616142198952acee0'
+title = 'Game Publishers That You Can Use Music From'
++++
 
 Tags: Music Policy, [Background Music](/posts/background-music), Gaming
 
