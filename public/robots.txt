@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://plateau12.github.io/garden/sitemap.xml

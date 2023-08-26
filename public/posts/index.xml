@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Garden</title>
+    <link>https://plateau12.github.io/garden/posts/</link>
+    <description>Recent content in Posts on Garden</description>
+    <image>
+      <title>Garden</title>
+      <url>https://plateau12.github.io/garden/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://plateau12.github.io/garden/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 25 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://plateau12.github.io/garden/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>0825140862 - Fail Faster</title>
+      <link>https://plateau12.github.io/garden/posts/0825140862-fail-faster/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://plateau12.github.io/garden/posts/0825140862-fail-faster/</guid>
+      <description>Links: Inbox Scott H. Young
+Source: Fear Fizzle More Than Failure - Scott H Young
+In Scott Young&amp;rsquo;s article, Fear Fizzle More Than Failure - Scott H Young, he notes that most projects &amp;lsquo;fizzle out,&amp;rsquo; meaning they eventually get ignored and fail unceremoniously by default due to inattention. Young recommends that, because we learn more and grow more from failure, we should commit to our goals, so that our projects fail instead of fizzle</description>
+    </item>
+    
+    <item>
+      <title>Inbox</title>
+      <link>https://plateau12.github.io/garden/posts/aa-inbox/inbox/</link>
+      <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://plateau12.github.io/garden/posts/aa-inbox/inbox/</guid>
+      <description>Placeholder Document For Local Graph View </description>
+    </item>
+    
+    <item>
+      <title>Game Publishers That You Can Use Music From</title>
+      <link>https://plateau12.github.io/garden/posts/game-publishers-that-you-can-use-music-from/</link>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://plateau12.github.io/garden/posts/game-publishers-that-you-can-use-music-from/</guid>
+      <description>Tags: Music Policy, Background Music, Gaming
+Valve Software✅ Monetization on YouTube/Twitch Is Allowed Video Policy Sega ❌📄 Not Worth It they had a history of going after stuff 4+ years ago. Company of Heroes Content Creator Guidelines – SEGA Support Monetization on YouTube/Twitch Is Allowed Ubisoft ✅📄 Monetization on YouTube/Twitch Is Allowed Posting copyrighted Ubisoft material | Ubisoft Help Seems good to use, they have title tracks/some tracks in games that they don&amp;rsquo;t own, so if something gets blocked/claimed add it to Blacklisted Game Music Tracks Dont use stuff from JustDance of course Square Enix ❌📄 Final Fantasy XIV Policy ✅ Monetization on YouTube/Twitch Is Allowed You may not combine or synchronize the Materials with third party content (e.</description>
+    </item>
+    
+    <item>
+      <title>Blacklisted Game Music Tracks</title>
+      <link>https://plateau12.github.io/garden/posts/blacklisted-game-music-tracks/</link>
+      <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://plateau12.github.io/garden/posts/blacklisted-game-music-tracks/</guid>
+      <description>Super Mario Odyssey OST | Wooded Kingdom (Steam Gardens)</description>
+    </item>
+    
+    <item>
+      <title>Loudness Normalization (Volume Compression)</title>
+      <link>https://plateau12.github.io/garden/posts/loudness-normalization-volume-compression/</link>
+      <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://plateau12.github.io/garden/posts/loudness-normalization-volume-compression/</guid>
+      <description>What is the Goal? Primarily its to bring the levels closer together while still sounding transparent.
+How Do You Obtain Transparent Compression? Primarily its done through multiple stages instead of just one The goal is to get slight levels of gain reduction at each stage.
+Some of the compressors are aimed at a lower DB level but have a super low ratio. Such as a LA2A style compressor. Or in some cases they are meant to catch transient spikes with a fast attack and a fast release (1176).</description>
+    </item>
+    
+  </channel>
+</rss>
