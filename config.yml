@@ -45,7 +45,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   assets:
@@ -80,7 +80,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Note Archive \U0001F335"
-    Content: all thoughts are my own
+    Content: all thoughts and opinons are my own.
 
   analytics:
     google:
@@ -116,6 +116,10 @@ menu:
       name: search
       url: /search/
       weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
     - identifier: portfolio
       name: portfolio
       url: https://haydengreener.com

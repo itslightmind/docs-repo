@@ -1,10 +1,12 @@
 ---
-title: "Blacklisted Game Music Tracks"
+title: "Claimed BGM Tracks"
 date: 2023-06-06
 modified: 2023-08-26
-original_hash: 80de47848d9479a92ca4554bd2f2a49abb0281cbf08e04dae30367cf8bcd49e3
+original_hash: 37062fe14ef919e2ea8a1562fa3e0ad2b0eebe9efa71afd0577a5f7c97df6b3e
+tags: ["Music Policy"]
 draft: false
 ---
+
 
 # List of BGM that Have Been Claimed
 
@@ -16,4 +18,4 @@ This list includes from publishers/developers themselves or by unrelated third p
 
 ### Claimed by Third Party
 
-[Super Mario Odyssey OST | Wooded Kingdom (Steam Gardens)](https://www.youtube.com/watch?v=P-9fvWJxQtU)  
+Super Mario Odyssey OST | Wooded Kingdom (Steam Gardens)  
