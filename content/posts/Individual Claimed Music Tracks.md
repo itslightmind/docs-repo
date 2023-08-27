@@ -34,4 +34,4 @@ This list includes songs that have been claimed either by the publishers/develop
 
 ## Return
 
-[Game Soundtrack Policies](/posts/game-soundtrack-policies)
+[Game Soundtrack Policies](/game-soundtrack-policies)

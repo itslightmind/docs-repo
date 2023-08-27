@@ -3,9 +3,9 @@
     {{- if site.Copyright }}
     <span>{{ site.Copyright | markdownify }}</span>
     {{- else }}
-    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a>, {{ "[contact me on twitter](https://twitter.com/ItsLightMind)" | markdownify }},</span>
+    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}"> {{ "[contact me on twitter](https://twitter.com/ItsLightMind)" | markdownify }},</span>
     {{- end }}
-    <span>made with Love & {{ "[Vercel](https://vercel.com)" | markdownify }}</span>
+    <span>made with Love & Vercel</span>
 </footer>
 {{- end }}
 

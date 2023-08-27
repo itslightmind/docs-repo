@@ -10,7 +10,7 @@ draft: false
 
 🐦 **Got a copyright claim?** Reach out to [@ItsLightMind](https://twitter.com/ItsLightMind) to inform others.  
 
-[Individual Claimed Music Tracks](/posts/individual-claimed-music-tracks)
+[Individual Claimed Music Tracks](/individual-claimed-music-tracks)
 
 ## Valve Software✅
 
@@ -27,7 +27,7 @@ draft: false
 
 - Monetization on YouTube/Twitch Is Allowed
 - [Posting copyrighted Ubisoft material | Ubisoft Help](https://www.ubisoft.com/en-gb/help/connectivity-and-performance/article/posting-copyrighted-ubisoft-material/000062649)
-- Seems good to use, they have title tracks/some tracks in games that they don't own, so if something gets blocked/claimed add it to [Individual Claimed Music Tracks](/posts/individual-claimed-music-tracks)
+- Seems good to use, they have title tracks/some tracks in games that they don't own, so if something gets blocked/claimed add it to [Individual Claimed Music Tracks](/individual-claimed-music-tracks)
 - Dont use stuff from JustDance of course
 
 ## Square Enix ❌📄
@@ -62,7 +62,7 @@ draft: false
 ## Capcom ✅
 
 - Monetization on YouTube/Twitch Is Allowed
-- Some songs might not be owned so if it gets claimed add to [Individual Claimed Music Tracks](/posts/individual-claimed-music-tracks)
+- Some songs might not be owned so if it gets claimed add to [Individual Claimed Music Tracks](/individual-claimed-music-tracks)
 - [Capcom Video Policy](https://www.capcomusa.com/video-policy/)
 
 ## CD Projekt ✅
