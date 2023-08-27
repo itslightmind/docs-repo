@@ -2,13 +2,13 @@
 title: "Game Soundtrack Policies"
 date: 2023-06-09
 modified: 2023-08-26
-original_hash: 140f191ff7b624480c8b076787a471877f400a94f683a60479125ca02e11c84f
+original_hash: 7a838df3a2d877df78d596d3ce5c7cfe98b4744a28a405859aef264dd1c7c6fa
 tags: ["Music Policy"]
 draft: false
 ---
 
 
-🐦 **Got a music claim?** Reach out to [@ItsLightMind](https://twitter.com/ItsLightMind) to inform others.  
+🐦 **Got a copyright claim?** Reach out to [@ItsLightMind](https://twitter.com/ItsLightMind) to inform others.  
 
 [Individual Claimed Music Tracks](/posts/individual-claimed-music-tracks)
 
