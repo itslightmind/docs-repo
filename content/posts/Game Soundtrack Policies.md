@@ -1,7 +1,7 @@
 ---
 title: "Game Soundtrack Policies"
 date: 2023-06-09
-modified: 2023-08-26
+modified: 2023-09-04
 original_hash: 7a838df3a2d877df78d596d3ce5c7cfe98b4744a28a405859aef264dd1c7c6fa
 tags: ["Music Policy"]
 draft: false
