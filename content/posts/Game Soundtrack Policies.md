@@ -1,16 +1,15 @@
 ---
-title: "Game Soundtrack Policies"
-date: 2023-06-09
-modified: 2023-09-04
-original_hash: 7a838df3a2d877df78d596d3ce5c7cfe98b4744a28a405859aef264dd1c7c6fa
-tags: ["Music Policy"]
-draft: false
+connection:
+publish: yes
+created: 2023-06-09
+modified: 2023-11-26
 ---
 
+Tags: [Music Policy]({{< ref "Music Policy" >}})
 
 🐦 **Got a copyright claim?** Reach out to [@ItsLightMind](https://twitter.com/ItsLightMind) to inform others.  
 
-[Individual Claimed Music Tracks](/individual-claimed-music-tracks)
+[Individual Claimed Music Tracks]({{< ref "Individual Claimed Music Tracks" >}})
 
 ## Valve Software✅
 
@@ -27,8 +26,8 @@ draft: false
 
 - Monetization on YouTube/Twitch Is Allowed
 - [Posting copyrighted Ubisoft material | Ubisoft Help](https://www.ubisoft.com/en-gb/help/connectivity-and-performance/article/posting-copyrighted-ubisoft-material/000062649)
-- Seems good to use, they have title tracks/some tracks in games that they don't own, so if something gets blocked/claimed add it to [Individual Claimed Music Tracks](/individual-claimed-music-tracks)
-- Dont use stuff from JustDance of course
+- Seems good to use, they have title tracks/some tracks in games that they don't own, so if something gets blocked/claimed add it to [Individual Claimed Music Tracks]({{< ref "Individual Claimed Music Tracks" >}})
+- Don't use stuff from JustDance of course
 
 ## Square Enix ❌📄
 
@@ -38,8 +37,8 @@ draft: false
 	- [FINAL FANTASY XIV Support Center](https://support.na.square-enix.com/rule.php?id=5382&tag=authc)
 	- [Square Enix to allow monetization of Final Fantasy XIV | PCGamesN](https://www.pcgamesn.com/finalfantasy/square-enix-allow-monetization-videos-and-streams-final-fantasy-xiv-realm-reborn)
 - Kingdom Hearts ❌
-	- Most of the games have strict policies, or no policies known. The only policy that i was able to find was Melody of Memory [KINGDOM HEARTS Melody of Memory](https://www.kingdomhearts.com/melody-of-memory/en-us/streaming-guidelines/)
-	- Fine for non commercial. So sadly monetization falls under it.  
+	- Most of the games have strict policies, or no policies known. The only policy that I was able to find was Melody of Memory [KINGDOM HEARTS Melody of Memory](https://www.kingdomhearts.com/melody-of-memory/en-us/streaming-guidelines/)
+	- Fine for non commercial. So sadly, monetization falls under it.  
  		  "The Permitted Uses are limited to non-commercial or personal use. Standard ad revenues may be enabled for streaming."
 
 ## Activision ❌
@@ -62,7 +61,7 @@ draft: false
 ## Capcom ✅
 
 - Monetization on YouTube/Twitch Is Allowed
-- Some songs might not be owned so if it gets claimed add to [Individual Claimed Music Tracks](/individual-claimed-music-tracks)
+- Some songs might not be owned so if it gets claimed add to [Individual Claimed Music Tracks]({{< ref "Individual Claimed Music Tracks" >}})
 - [Capcom Video Policy](https://www.capcomusa.com/video-policy/)
 
 ## CD Projekt ✅
@@ -92,7 +91,7 @@ draft: false
 ## InnerSloth ✅ 📄
 
 - Monetization on YouTube/Twitch Is Allowed
-- Seems likely that you'll be fine. They have broadcast terms for the music and sound effects broadcast. I wouldn't be surprised if its fine for [Youtube](#)
+- Seems likely that you'll be fine. They have broadcast terms for the music and sound effects broadcast. I wouldn't be surprised if its fine for [Youtube]({{< ref "Youtube" >}})
 - [DMCA AND FAN CREATION POLICY FOR INNERSLOTH LICENSED IP](https://store.innersloth.com/pages/dmca-and-fan-creation-policy-for-innersloth-licensed-ip)
 - [Terms of Use for the Games | Broadcast Rights](https://www.innersloth.com/terms-of-use-for-the-games/#section-8)
 
