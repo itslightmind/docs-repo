@@ -16,9 +16,9 @@ External.
 [giphy.gif](https://media4.giphy.com/media/lWDgxXQXFXh7O/giphy.gif?cid=ecf05e476k6z1z3n9mmoyihpqmp7lubd9giesmvf4wnssbj9&ep=v1_gifs_search&rid=giphy.gif&ct=g)
 
 ![Pasted image 20231126115636.png]({{< ref "Pasted image 20231126115636.png" >}})  
-![b.png]({{< ref "b.png" >}})
+![b.png]({{< ref "/content/posts/b.png" >}})
 
-![a.png]({{< ref "a.png" >}})
+![a.png]({{< ref "/posts/a.png" >}})
 
 Link  
 [I watched SOURCEFED for the first time - YouTube](https://www.youtube.com/watch?v=lzYg5d2KDF0&t=69s&pp=ygUFc3Rhbno%3D)
