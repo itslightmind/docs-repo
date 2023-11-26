@@ -5,7 +5,6 @@ created: 2023-06-09
 modified: 2023-11-26
 ---
 
-Tags: [Music Policy]({{< ref "Music Policy" >}})
 
 🐦 **Got a copyright claim?** Reach out to [@ItsLightMind](https://twitter.com/ItsLightMind) to inform others.  
 
@@ -91,7 +90,7 @@ Tags: [Music Policy]({{< ref "Music Policy" >}})
 ## InnerSloth ✅ 📄
 
 - Monetization on YouTube/Twitch Is Allowed
-- Seems likely that you'll be fine. They have broadcast terms for the music and sound effects broadcast. I wouldn't be surprised if its fine for [Youtube]({{< ref "Youtube" >}})
+- Seems likely that you'll be fine. They have broadcast terms for the music and sound effects broadcast. I wouldn't be surprised if its fine for Youtube
 - [DMCA AND FAN CREATION POLICY FOR INNERSLOTH LICENSED IP](https://store.innersloth.com/pages/dmca-and-fan-creation-policy-for-innersloth-licensed-ip)
 - [Terms of Use for the Games | Broadcast Rights](https://www.innersloth.com/terms-of-use-for-the-games/#section-8)
 

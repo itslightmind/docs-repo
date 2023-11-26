@@ -5,8 +5,6 @@ created: 2023-06-06
 modified: 2023-09-04
 ---
 
-tags: [Music Policy]({{< ref "Music Policy" >}})
-
 ---
 
 ### List of Background Music (BGM) That Have Been Claimed
