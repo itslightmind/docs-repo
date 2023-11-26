@@ -1,4 +1,4 @@
-baseURL: 'https://docs.haydengreener.com'
+baseURL: 'https://lightmind.dev'
 title: Docs
 paginate: 5
 theme: PaperMod
@@ -120,10 +120,10 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: portfolio
-      name: portfolio
-      url: https://haydengreener.com
-      weight: 30
+    # - identifier: portfolio
+    #  name: portfolio
+    #  url: https://haydengreener.com
+    #  weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
