@@ -25,12 +25,11 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: lightmind.dev
-  description: Docs description
+  description: Hi my name's Light! I like to build things and this is my personal blog where i post maker projects as well as resources for freelance video editors.
   keywords: [LightMind, Server Management, Home Assistant, Content Creation, Tech DIY Projects, Software Tutorials, Freelance Journey, Smart Home Technology, Cloud Computing, Video Editing, Esports, Motion Graphics, Adobe Creative Suite, Linux, Python, Docker, Proxmox, Freelance Video Editing]
-
   author: "LightMind"
   # author: ["Me", "You"] # multiple authors
-  images: ["/assets/opengraph.jpg"]
+  # images: ["/assets/opengraph.jpg"]
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
