@@ -1,8 +1,11 @@
 ---
 Title: Integrating IOS iPhone Alarms with Lights Through Home Assistant (IOS 17)
 created: 2023-11-27
-modified: 2023-11-27
+modified: 2023-11-28
 ---
+
+Showcase (Over The Span of 30 minutes):  
+![A001_11280005_C002.gif](A001_11280005_C002.gif)
 
 ## Background and Inspiration
 
@@ -23,8 +26,6 @@ This system has been running VERY consistently for me. And I think it's not that
 
 [Settings > Devices & Services > Helpers](https://my.home-assistant.io/redirect/helpers/)
 
-1. Go to Devices & services  
-   ![Devices_And_Services_HA_Alarm.png](Devices_And_Services_HA_Alarm.png)
 1. Create a new helper, and select Date and/or time  
    ![Date_And_Time_HA_Alarm.png](Date_And_Time_HA_Alarm.png)
 1. Make sure you select **Date and time** for the input that's VERY important for this to work.  
@@ -32,17 +33,18 @@ This system has been running VERY consistently for me. And I think it's not that
    Now that you've added a Helper for the apple alarm. what you'll want to do is add the shortcut on mobile.  
    [HA Sync iOS 17 Sleep Alarm Shortcut](https://www.icloud.com/shortcuts/e71ab4d7795b4283833e9b0ee7d8b140)
 
-Note: This shortcut has been modified by me but was originally made by u/DelusionalAI on Reddit.
+Once you have added the shortcut, you will need to grant it access to the HA app and allow the service to call the clock as well. To prompt this, you can either try running the automation or tap the "i" button at the bottom of the screen.  
+Please note that this shortcut has only one value that may require adjustment by the end user, which is the name set for the helper. By default, it is set as "input_datetime.apple_alarm_helper," so it should work without any changes if you had named the helper "apple_alarm_helper" in HA.
 
-Once you have added the shortcut, you will need to grant it access to the HA app and allow the service to call the clock as well. To prompt this, you can either try running the automation or tap the "i" button at the bottom of the screen. Please note that this shortcut has only one value that may require adjustment by the end user, which is the name set for the helper. By default, it is set as "input_datetime.apple_alarm_helper," so it should work without any changes if you had named the helper "apple_alarm_helper" in HA.  
 After making any necessary adjustments, try running the shortcut to test its functionality. If it works, you should see the time in the HA helper change accordingly.
 
 ![Pasted image 20231127224421.png](Pasted%20image%2020231127224421.png)
 
-Now that we've gotten the alarm being sent to the helper we will now add a few automations to improve the QOL so your not having to manually run the shortcut. The two automations that i like to run are…
+Now that we've gotten the alarm value in the helper working. We should add a few automations to improve the QOL so your not having to manually run the shortcut every night. The two automations that i like to run are
 
 1. When Clock app closes run HA Sync iOS 17 Sleep Alarm Shortcut
-1. At 3AM run HA Sync iOS 17 Sleep Alarm Shortcut (if you dont have a scheduled time send, the HA wont do regular alarms)
+1. At 3AM run HA Sync iOS 17 Sleep Alarm Shortcut
+   1. (if you dont have a scheduled time send, the HA wont do regular alarms) 
 
 # Final Stretch for HA
 
@@ -157,6 +159,11 @@ sequence:
             minutes: "{{ offset_minutes | float }}"
 mode: single
 ````
+
+Bi-Color:  
+![A001_11280005_C002.gif](A001_11280005_C002.gif)  
+RGB lights Panel:  
+![Recording 2023-11-27 235638_1_1.gif](Recording%202023-11-27%20235638_1_1.gif)
 
 ## Current Limitations
 
