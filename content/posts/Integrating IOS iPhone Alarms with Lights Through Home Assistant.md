@@ -1,19 +1,11 @@
 ---
-Title: Integrating IOS iPhone Alarms with Lights Through Home Assistant (IOS 17)
+Title: Integrating iPhone Morning Alarm with Smart Lights Through Home Assistant (IOS 17)
 created: 2023-11-27
 modified: 2023-11-28
 ---
 
-Showcase (Over The Span of 30 minutes):  
+Final Result:  
 ![A001_11280005_C002.gif](A001_11280005_C002.gif)
-
-## Background and Inspiration
-
-First off, this was a fun project that started out fairly small and I've made incremental changes to the point where its been super stable and I feel like with the recent IOS changes that others might be interested in looking at the setup & code.
-
-## Why Should You Do This?
-
-This system has been running VERY consistently for me. And I think it's not that big of a hassle since other users have shared their work and I've built upon it to connect it all up into my system. So let's talk about the general theory about this.
 
 ## System Overview
 
@@ -34,13 +26,13 @@ This system has been running VERY consistently for me. And I think it's not that
    [HA Sync iOS 17 Sleep Alarm Shortcut](https://www.icloud.com/shortcuts/e71ab4d7795b4283833e9b0ee7d8b140)
 
 Once you have added the shortcut, you will need to grant it access to the HA app and allow the service to call the clock as well. To prompt this, you can either try running the automation or tap the "i" button at the bottom of the screen.  
-Please note that this shortcut has only one value that may require adjustment by the end user, which is the name set for the helper. By default, it is set as "input_datetime.apple_alarm_helper," so it should work without any changes if you had named the helper "apple_alarm_helper" in HA.
+Please note that this shortcut has only one value that may require change by the end user, which is the name set for the helper. By default, it is set as "input_datetime.apple_alarm_helper," so it will work without any changes if you had named the helper "apple_alarm_helper" in HA.
 
-After making any necessary adjustments, try running the shortcut to test its functionality. If it works, you should see the time in the HA helper change accordingly.
+Once you have made any required adjustments, give the shortcut a try to test its functionality. If it is working properly, you will notice the time in the HA helper changing accordingly.
 
 ![Pasted image 20231127224421.png](Pasted%20image%2020231127224421.png)
 
-Now that we've gotten the alarm value in the helper working. We should add a few automations to improve the QOL so your not having to manually run the shortcut every night. The two automations that i like to run are
+Now that we've gotten the alarm value in the helper working. We should add a few automations on the shortcuts app so we're not having to manually run the shortcut every night. The two automations that I like to add are:
 
 1. When Clock app closes run HA Sync iOS 17 Sleep Alarm Shortcut
 1. At 3AM run HA Sync iOS 17 Sleep Alarm Shortcut
@@ -48,21 +40,11 @@ Now that we've gotten the alarm value in the helper working. We should add a few
 
 # Final Stretch for HA
 
-Now that we've gotten that setup we'll now move on to HA light system which is comprised of two parts the first side is an Automation under "Automations & Scenes" which calls on the light management script when its the correct time.
+Now that we have completed the setup, we can proceed to the HA alarm system. This system is divided into two parts. The first part is an Automation located under "Automations & Scenes". It triggers the light management script at the designated time - the offset in minutes.
 
-The general gist of the automation is that it checks every minute if its the correct time specified by the offset_minutes value. So if you set the value to 40 as in my example the lights will start coming up 40 minutes early. You can change the value of the offset as well as what time value it tries to pull from you can leave this the same unless you changed the handler in the previous steps.
+The general gist of the automation operates by regularly checking if the current time matches the specified offset_minutes value. As an example if you set the value to 40, the lights will kick on at low levels and a warmer hue 40 minutes before the alarm. 
 
-````
-as_timestamp(states('input_datetime.apple_alarm_helper'))
-````
-
-There is also the entity_id which is the script name that controls the lights
-
-````
-entity_id: script.wled_alarm_brightness_and_color_temperature
-````
-
-Here's the entire HA automation.
+### Automation: Toggle Light Based on Alarm Time
 
 ````
 alias: Toggle Light Based on Alarm Time
@@ -82,6 +64,9 @@ condition:
         false
       {% endif %}
 action:
+  # - condition: zone
+  #  entity_id: device_tracker.CHANGEME # change this to the correct device
+  #  zone: zone.home
   - service: script.turn_on
     target:
       entity_id: script.wled_alarm_brightness_and_color_temperature
@@ -89,11 +74,35 @@ action:
       variables:
         offset_minutes: "{{ offset_minutes }}"
 variables:
-  offset_minutes: 40 # Change the time here
+  offset_minutes: 40 # this is the time its offset by, so 40 is 40 minutes before alarm
 mode: single
 ````
 
-And here's the second part on the HA side. This will be added under the "Scripts" section under "Automations & Scenes" Which turns on in this example a WLED RGB light, as well as a single bi colored light. To add or change it you will need to find the light.XXX of the devices you want to include.
+If you make any changes to the setup, these are the values that you might need to modify.
+
+````
+as_timestamp(states('input_datetime.apple_alarm_helper'))
+````
+
+There is also the entity_id which is the script name that controls the lights
+
+````
+entity_id: script.wled_alarm_brightness_and_color_temperature
+````
+
+Additionally, there is a device tracker that ensures the device is located at home. This feature is super useful while traveling, as it prevents light automation from running when the house is vacant.
+
+````
+# entity_id: device_tracker.CHANGEME # change this to the correct device
+````
+
+### Script: WLED Alarm Smooth Morning Light Transition
+
+And here's the second part on the HA side. This will be added under the "Scripts" section under "Automations & Scenes". For this example i'm just doing a simple WLED RGB light and a bi-color light. You will most likely have to find the light's id value which should be in the format of:
+
+````
+light.device_name
+````
 
 ````
 alias: WLED Alarm Smooth Morning Light Transition
@@ -160,17 +169,15 @@ sequence:
 mode: single
 ````
 
+# Results
+
 Bi-Color:  
 ![A001_11280005_C002.gif](A001_11280005_C002.gif)  
-RGB lights Panel:  
+RGB:  
 ![Recording 2023-11-27 235638_1_1.gif](Recording%202023-11-27%20235638_1_1.gif)
 
-## Current Limitations
+## Acknowledgments
 
-As of now, there is no check in place to verify if the user is at home. Therefore, if you go on a trip, you would need to disable the automation on HA because there are no restrictions preventing it from executing. Please take this into consideration.
+I'm incredibly grateful to DelusionalAI on Reddit. Thanks to their original shortcut, I no longer have to rely on my Google Home smart speaker to set the alarm. I used to quietly call out across the room at 3am to adjust my morning alarm but now, I can simply change it on my phone.
 
-## References and Acknowledgments
-
-I'm incredibly grateful to DelusionalAI on Reddit. Thanks to their original shortcut, I no longer have to rely on my Google Home smart speaker for setting the alarm. I used to quietly call out across the room at 3am to adjust my morning alarm but now, I can simply change it on my phone.
-
-[thread: r/homeassistant](https://www.reddit.com/r/homeassistant/comments/17fmyt8/its_now_very_easy_to_get_your_ios_wakeup_alarm/).
+[original comment from DelusionalAI: r/homeassistant](https://www.reddit.com/r/homeassistant/comments/17fmyt8/its_now_very_easy_to_get_your_ios_wakeup_alarm/).
