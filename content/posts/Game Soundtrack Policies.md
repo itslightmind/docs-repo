@@ -1,8 +1,7 @@
 ---
-Title: Game Soundtrack Policies!
-Draft: false
+Title: Game Soundtrack Policies
 created: 2023-06-09
-modified: 2023-11-28
+modified: 2023-09-04
 ---
 
 🐦 **Got a copyright claim?** Reach out to [@ItsLightMind](https://twitter.com/ItsLightMind) to inform others.

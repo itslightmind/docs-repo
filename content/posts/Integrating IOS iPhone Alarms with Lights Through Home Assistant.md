@@ -1,6 +1,5 @@
 ---
 Title: Integrating iPhone Morning Alarm with Smart Lights Through Home Assistant
-Draft: false
 created: 2023-11-27
 modified: 2023-11-28
 ---
