@@ -22,8 +22,9 @@ Final Result:
    ![Date_And_Time_HA_Alarm.png](Date_And_Time_HA_Alarm.png)
 1. Make sure you select **Date and time** for the input that's VERY important for this to work.  
    ![create_date_and_time_HA_Alarm.png](create_date_and_time_HA_Alarm.png)  
-   Now that you've added a Helper for the apple alarm. what you'll want to do is add the shortcut on mobile.  
-   [HA Sync iOS 17 Sleep Alarm Shortcut](https://www.icloud.com/shortcuts/e71ab4d7795b4283833e9b0ee7d8b140)
+   Now that you've added a Helper for the apple alarm. what you'll want to do is add the shortcut on mobile.
+
+[HA Sync iOS 17 Sleep Alarm Shortcut](https://www.icloud.com/shortcuts/9e674b372faf4ac9b2f7e68e92a8d4ac)
 
 Once you have added the shortcut, you will need to grant it access to the HA app and allow the service to call the clock as well. To prompt this, you can either try running the automation or tap the "i" button at the bottom of the screen.  
 Please note that this shortcut has only one value that may require change by the end user, which is the name set for the helper. By default, it is set as "input_datetime.apple_alarm_helper," so it will work without any changes if you had named the helper "apple_alarm_helper" in HA.
