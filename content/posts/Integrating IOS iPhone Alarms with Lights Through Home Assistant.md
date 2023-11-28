@@ -112,8 +112,8 @@ variables:
   bi_color_lights:
     - light.left_key_light
   target_brightness_pct: 100
-  offset_minutes: "{{ offset_minutes | default(0.0001) }}"
-  step_count: "{{ 20 if offset_minutes | float < 1 else offset_minutes | int }}"
+  offset_minutes: "{{ offset_minutes | default(3) }}"
+  step_count: 20
   start_kelvin: 2900
   end_kelvin: 6000
   start_rgb_color:
@@ -165,7 +165,7 @@ sequence:
           target:
             entity_id: "{{ rgb_lights }}"
         - delay:
-            minutes: "{{ offset_minutes | float }}"
+            seconds: "{{ (offset_minutes | float * 60 / step_count) | round(0) }}"
 mode: single
 ````
 
