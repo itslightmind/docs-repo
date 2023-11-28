@@ -44,7 +44,7 @@ params:
   ShowRssButtonInSectionTermList: false
   UseHugoToc: true
   disableSpecial1stPost: false
-  disableScrollToTop: false
+  disableScrollToTop: true
   comments: false
   hidemeta: false
   hideSummary: false
