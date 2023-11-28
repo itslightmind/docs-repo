@@ -1,7 +1,7 @@
 ---
 Title: Individual Claimed Music Tracks
 created: 2023-06-06
-modified: 2023-09-04
+modified: 2023-11-27
 ---
 
 ---
@@ -10,7 +10,7 @@ modified: 2023-09-04
 
 This list includes songs that have been claimed either by the publishers/developers themselves, or by unrelated third parties who have added their own version of the song to the content ID system.
 
-**Note:** If you experience a claim for a song that is not listed here, please "suggest a correction" by providing the song's name as well as proof of the claim. You can do so by dm on [Twitter](https://twitter.com/ItsLightMind) or through \[Suggest Corrections On Github.\](<https://github.com/itslightmind/note-repo/tree/main/content/posts/Claimed-BGM> Tracks.md)
+**Note:** If you experience a claim for a song that is not listed here, please "suggest a correction" by providing the song's name as well as proof of the claim. You can do so by dm on [Twitter](https://twitter.com/ItsLightMind) or through [Suggest Corrections On Github.](https://github.com/itslightmind/docs-repo/blob/main/content/posts/Individual%20Claimed%20Music%20Tracks.md)
 
 ---
 

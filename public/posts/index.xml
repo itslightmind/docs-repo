@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Docs</title>
+    <link>https://lightmind.dev/posts/</link>
+    <description>Recent content in Posts on Docs</description>
+    <image>
+      <title>Docs</title>
+      <url>https://lightmind.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://lightmind.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lightmind.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game Soundtrack Policies!</title>
+      <link>https://lightmind.dev/game-soundtrack-policies/</link>
+      <pubDate>Sun, 26 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lightmind.dev/game-soundtrack-policies/</guid>
+      <description>🐦 Got a copyright claim? Reach out to @ItsLightMind to inform others.
+Individual Claimed Music Tracks
+Valve Software✅ Monetization on YouTube/Twitch Is Allowed Video Policy Sega ❌📄 Not Worth It they had a history of going after stuff 4+ years ago. Company of Heroes Content Creator Guidelines – SEGA Support Monetization on YouTube/Twitch Is Allowed Ubisoft ✅📄 Monetization on YouTube/Twitch Is Allowed Posting copyrighted Ubisoft material | Ubisoft Help Seems good to use, they have title tracks/some tracks in games that they don&amp;rsquo;t own, so if something gets blocked/claimed add it to Individual Claimed Music Tracks Don&amp;rsquo;t use stuff from JustDance of course Square Enix ❌📄 Final Fantasy XIV Policy ✅ Monetization on YouTube/Twitch Is Allowed You may not combine or synchronize the Materials with third party content (e.</description>
+    </item>
+    
+    <item>
+      <title>Is This Thing On?! (Test Post)</title>
+      <link>https://lightmind.dev/is-this-thing-on-test-post/</link>
+      <pubDate>Sun, 26 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lightmind.dev/is-this-thing-on-test-post/</guid>
+      <description>Hi! This is a Test Hi! This is just a test to see how some stuff works on Obsidian to Hugo.
+This text will be deleted eventually, but for now, I&amp;rsquo;m just checking to ensure that everything works visually, at least. Fingers crossed!
+Local.
+External.
+giphy.gif
+Link
+I watched SOURCEFED for the first time - YouTube
+Embed
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie, nisl ut tempus pellentesque, nibh metus tincidunt odio, aliquet convallis lorem urna iaculis ipsum.</description>
+    </item>
+    
+    <item>
+      <title>Individual Claimed Music Tracks</title>
+      <link>https://lightmind.dev/individual-claimed-music-tracks/</link>
+      <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lightmind.dev/individual-claimed-music-tracks/</guid>
+      <description>List of Background Music (BGM) That Have Been Claimed This list includes songs that have been claimed either by the publishers/developers themselves, or by unrelated third parties who have added their own version of the song to the content ID system.
+Note: If you experience a claim for a song that is not listed here, please &amp;ldquo;suggest a correction&amp;rdquo; by providing the song&amp;rsquo;s name as well as proof of the claim.</description>
+    </item>
+    
+  </channel>
+</rss>
