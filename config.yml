@@ -1,5 +1,5 @@
 baseURL: 'https://lightmind.dev'
-title: Docs
+title: lightmind.dev
 paginate: 5
 theme: PaperMod
 
@@ -24,22 +24,23 @@ outputs:
         
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Docs
+  title: lightmind.dev
   description: Docs description
-  keywords: [Blog, Portfolio, PaperMod]
-  author: ""
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
-  defaultTheme: light # dark, light
-  disableThemeToggle: false
+  keywords: [LightMind, Server Management, Home Assistant, Content Creation, Tech DIY Projects, Software Tutorials, Freelance Journey, Smart Home Technology, Cloud Computing, Video Editing, Esports, Motion Graphics, Adobe Creative Suite, Linux, Python, Docker, Proxmox, Freelance Video Editing]
 
+  author: "LightMind"
+  # author: ["Me", "You"] # multiple authors
+  images: ["/assets/opengraph.jpg"]
+  DateFormat: "2006-01-02"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  ShowCodeCopyButtons: true
   ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: false
   ShowBreadCrumbs: false
-  ShowCodeCopyButtons: false
   ShowWordCount: false
+  responsiveImages: true
   ShowRssButtonInSectionTermList: false
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -79,7 +80,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Docs \U0001F335"
+    Title: "lightmind.dev \U0001F335"
     Content: all thoughts and opinons are my own.
 
   analytics:

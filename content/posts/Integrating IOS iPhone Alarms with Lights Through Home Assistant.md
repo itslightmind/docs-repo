@@ -1,5 +1,6 @@
 ---
 Title: Integrating iPhone Morning Alarm with Smart Lights Through Home Assistant
+Draft: false
 created: 2023-11-27
 modified: 2023-11-28
 ---
@@ -46,7 +47,7 @@ The general gist of the automation operates by regularly checking if the current
 
 ### Automation: Toggle Light Based on Alarm Time
 
-````
+````yml
 alias: Toggle Light Based on Alarm Time
 description: Turn on light based on the alarm time difference.
 trigger:
@@ -80,19 +81,19 @@ mode: single
 
 If you make any changes to the setup, these are the values that you might need to modify.
 
-````
+````yml
 as_timestamp(states('input_datetime.apple_alarm_helper'))
 ````
 
 There is also the entity_id which is the script name that controls the lights
 
-````
+````yml
 entity_id: script.wled_alarm_brightness_and_color_temperature
 ````
 
 Additionally, there is a device tracker that ensures the device is located at home. This feature is super useful while traveling, as it prevents light automation from running when the house is vacant.
 
-````
+````yml
 # entity_id: device_tracker.CHANGEME # change this to the correct device
 ````
 
@@ -100,11 +101,11 @@ Additionally, there is a device tracker that ensures the device is located at ho
 
 And here's the second part on the HA side. This will be added under the "Scripts" section under "Automations & Scenes". For this example i'm just doing a simple WLED RGB light and a bi-color light. You will most likely have to find the light's id value which should be in the format of:
 
-````
+````yml
 light.device_name
 ````
 
-````
+````yml
 alias: WLED Alarm Smooth Morning Light Transition
 variables:
   rgb_lights:

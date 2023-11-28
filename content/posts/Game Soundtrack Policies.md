@@ -1,5 +1,6 @@
 ---
-Title: Game Soundtrack Policies!
+Title: Game Soundtrack Policies
+Draft: false
 created: 2023-06-09
 modified: 2023-11-26
 ---
