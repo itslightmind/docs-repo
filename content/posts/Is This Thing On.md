@@ -10,15 +10,15 @@ Hi! This is just a test to see how some stuff works on Obsidian to Hugo.
 This text will be deleted eventually, but for now, I'm just checking to ensure that everything works visually, at least. Fingers crossed!
 
 Local.  
-![giphy.gif]({{< ref "giphy.gif" >}})
+![giphy.gif](giphy.gif)
 
 External.  
 [giphy.gif](https://media4.giphy.com/media/lWDgxXQXFXh7O/giphy.gif?cid=ecf05e476k6z1z3n9mmoyihpqmp7lubd9giesmvf4wnssbj9&ep=v1_gifs_search&rid=giphy.gif&ct=g)
 
-![Pasted image 20231126115636.png]({{< ref "Pasted image 20231126115636.png" >}})  
-![b.png]({{< ref "/content/posts/b.png" >}})
+![Pasted image 20231126115636.png](Pasted%20image%2020231126115636.png)  
+![b.png](b.png)
 
-![a.png]({{< ref "/posts/a.png" >}})
+![a.png](a.png)
 
 Link  
 [I watched SOURCEFED for the first time - YouTube](https://www.youtube.com/watch?v=lzYg5d2KDF0&t=69s&pp=ygUFc3Rhbno%3D)
@@ -33,4 +33,4 @@ Nulla dictum massa non ante fermentum finibus. Nullam commodo volutpat ex id cur
 
 Cras purus sem, pretium rhoncus volutpat non, tempor in purus. Duis dapibus sit amet ligula placerat facilisis. Proin ornare euismod diam, vel sagittis velit. Sed vestibulum eros elit, sit amet cursus turpis maximus at. Etiam vestibulum magna a sollicitudin fringilla. Phasellus in pharetra eros, sit amet pellentesque justo. Sed eleifend suscipit quam. Nulla arcu eros, egestas ut volutpat ut, rutrum nec arcu. Nullam vel rhoncus sem. Vivamus dictum mauris eu ligula consequat tempor. Praesent quis eros a massa euismod consequat nec convallis tortor. Curabitur tristique tortor non commodo elementum.
 
-[Game Soundtrack Policies]({{< ref "Game Soundtrack Policies" >}})
+[Game Soundtrack Policies](Game%20Soundtrack%20Policies.md)
