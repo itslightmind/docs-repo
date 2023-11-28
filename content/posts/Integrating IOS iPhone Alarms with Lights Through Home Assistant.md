@@ -111,9 +111,9 @@ variables:
     - light.wled
   bi_color_lights:
     - light.left_key_light
-  step_count: 60
   target_brightness_pct: 100
-  offset_minutes: "{{ offset_minutes | default(0.01) }}"
+  offset_minutes: "{{ offset_minutes | default(0.0001) }}"
+  step_count: "{{ 20 if offset_minutes | float < 1 else offset_minutes | int }}"
   start_kelvin: 2900
   end_kelvin: 6000
   start_rgb_color:
