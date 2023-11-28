@@ -74,8 +74,8 @@ params:
     buttons:
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
+      #- name: Tags
+      #  url: tags
 
   # home-info mode
   homeInfoParams:
@@ -116,10 +116,10 @@ menu:
       name: search
       url: /search/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
+    #- identifier: tags
+    #  name: tags
+    #  url: /tags/
+    #  weight: 20
     # - identifier: portfolio
     #  name: portfolio
     #  url: https://haydengreener.com
