@@ -113,7 +113,7 @@ variables:
     - light.left_key_light
   target_brightness_pct: 100
   offset_minutes: "{{ offset_minutes | default(3) }}"
-  step_count: 20
+  step_count: 50
   start_kelvin: 2900
   end_kelvin: 6000
   start_rgb_color:
