@@ -7,7 +7,7 @@ modified: 2023-11-28
 Final Result:  
 ![A001_11280005_C002.gif](A001_11280005_C002.gif)
 
-## System Overview
+# Overview
 
 1. Set a morning alarm on your iPhone
 1. Home Assistant receives this through an Apple shortcut
@@ -44,7 +44,7 @@ Now that we have completed the setup, we can proceed to the HA alarm system. Thi
 
 The general gist of the automation operates by regularly checking if the current time matches the specified offset_minutes value. As an example if you set the value to 40, the lights will kick on at low levels and a warmer hue 40 minutes before the alarm. 
 
-### Automation: Toggle Light Based on Alarm Time
+## Automation: Toggle Light Based on Alarm Time
 
 ````yml
 alias: Toggle Light Based on Alarm Time
@@ -96,7 +96,7 @@ Additionally, there is a device tracker that ensures the device is located at ho
 # entity_id: device_tracker.CHANGEME # change this to the correct device
 ````
 
-### Script: WLED Alarm Smooth Morning Light Transition
+## Script: WLED Alarm Smooth Morning Light Transition
 
 And here's the second part on the HA side. This will be added under the "Scripts" section under "Automations & Scenes". For this example i'm just doing a simple WLED RGB light and a bi-color light. You will most likely have to find the light's id value which should be in the format of:
 
@@ -176,7 +176,7 @@ Bi-Color:
 RGB:  
 ![Recording 2023-11-27 235638_1_1.gif](Recording%202023-11-27%20235638_1_1.gif)
 
-## Acknowledgments
+# Acknowledgments
 
 I'm incredibly grateful to DelusionalAI on Reddit. Thanks to their original shortcut, I no longer have to rely on my Google Home smart speaker to set the alarm. I used to quietly call out across the room at 3am to adjust my morning alarm but now, I can simply change it on my phone.
 
