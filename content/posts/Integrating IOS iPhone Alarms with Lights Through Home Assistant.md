@@ -179,6 +179,8 @@ RGB:
 
 # Acknowledgments
 
-I'm incredibly grateful to DelusionalAI on Reddit. Thanks to their original shortcut, I no longer have to rely on my Google Home smart speaker to set the alarm. I used to quietly call out across the room at 3am to adjust my morning alarm but now, I can simply change it on my phone.
+I'm incredibly grateful to u/Tseralo and u/DelusionalAI on Reddit. My shortcut is based on their work, and thanks to them I no longer have to rely on my Google Home smart speaker to set the alarm. I used to quietly call out across the room at 3am to adjust my morning alarm but now, I can simply change it on my phone.
 
-[original comment from DelusionalAI: r/homeassistant](https://www.reddit.com/r/homeassistant/comments/17fmyt8/its_now_very_easy_to_get_your_ios_wakeup_alarm/).
+[original comment from DelusionalAI: r/homeassistant](https://www.reddit.com/r/homeassistant/comments/17fmyt8/its_now_very_easy_to_get_your_ios_wakeup_alarm/)
+
+[original thread from Tseralo: r/homeassistant](https://www.reddit.com/r/homeassistant/comments/17fmyt8/its_now_very_easy_to_get_your_ios_wakeup_alarm/)
