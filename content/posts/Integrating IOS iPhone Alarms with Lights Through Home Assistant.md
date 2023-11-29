@@ -123,8 +123,8 @@ variables:
     - 17
   end_rgb_color:
     - 255
-    - 243
-    - 225
+    - 230
+    - 180
 sequence:
   - service: light.turn_on
     data:
