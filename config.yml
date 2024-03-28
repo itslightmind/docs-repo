@@ -1,4 +1,4 @@
-baseURL: 'https://lightmind.dev'
+baseURL: 'https://blog.lightmind.dev'
 title: lightmind.dev
 paginate: 5
 theme: PaperMod
