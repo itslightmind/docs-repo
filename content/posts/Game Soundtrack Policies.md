@@ -1,7 +1,7 @@
 ---
 Title: Game Soundtrack Policies
 created: 2023-06-09
-modified: 2023-11-28
+modified: 2024-03-28
 ---
 
 🐦 **Got a copyright claim?** Reach out to [@ItsLightMind](https://twitter.com/ItsLightMind) to inform others.
@@ -162,3 +162,9 @@ modified: 2023-11-28
 * Cant find any modern copyright policies from the studio, but it seems like they're open for at least they're own gameplay packages, so it might not work for using the music out of context.
 * "The Smite studio has issued a statement on YouTube streaming and monetization. "We support and encourage you, as an individual content creator, to create videos using our game content AND monetize those videos as you wish," the developer [writes](http://www.hirezstudios.com/smitegame/home/sidebar/latest-news/view/hi-rez-studios-blog/2013/12/11/video-monetization-by-users-supported-encouraged-by-hi-rez-studios). Additionally, it has offered to provide written backup to any streamer that finds their videos improperly claimed."
 * This statement is from 2013
+
+## Pirate Software (Heartbound)
+
+* [Heartbound - OST on Steam](https://store.steampowered.com/app/776560/Heartbound__OST/)
+* As long as you are not directly reuploading the music with no other content you are free to use the songs in this OST in any videos or streams whether they are monetized or not.
+* [Thor Talking about the Game OST on YouTube](https://youtube.com/shorts/5ZT6_A4qkd4?si=OwuTJFa8fFJ2QDf2)
